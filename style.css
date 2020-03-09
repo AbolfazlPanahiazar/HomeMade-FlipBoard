@@ -8,11 +8,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
-    height: 520px;
+    width: 350px;
+    height: 430px;
     text-align: center;
 }
-
 .front, .back {
     position: absolute;
     width: 100%;
@@ -78,5 +77,6 @@ body {
 .fa-instagram { color: #d72888;}
 .fa-youtube { color: #eb1c14;}
 .fa-linkedin { color: #0077b5;}
+
 
 /****************************************************************************/
