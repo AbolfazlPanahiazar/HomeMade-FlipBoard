@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-.front {
+.front, .back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -54,3 +54,29 @@ body {
     text-align: justify;
     font-size: 15px;
 }
+
+/****************************************************************************/
+
+.back p {
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
+}
+.back .icons {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.back i {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.fa-facebook-square { color: #4267b2;}
+.fa-twitter-square { color: #38a1f3;}
+.fa-instagram { color: #d72888;}
+.fa-youtube { color: #eb1c14;}
+.fa-linkedin { color: #0077b5;}
+
+/****************************************************************************/
